@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+    // Dados da Carta 1 - Goiânia
+    char estado1 = 'G';
+    char codigo1[4] = "G01";
+    char nomeCidade1[50] = "Goiania";
+    int populacao1 = 1536097;
+    float area1 = 739.5;
+    float pib1 = 55.3;
+    int pontosTuristicos1 = 25;
+
+    // Dados da Carta 2 - Florianópolis
+    char estado2 = 'H';
+    char codigo2[4] = "H02";
+    char nomeCidade2[50] = "Florianopolis";
+    int populacao2 = 508826;
+    float area2 = 675.4;
+    float pib2 = 30.7;
+    int pontosTuristicos2 = 40;
+
+    // Exibição dos dados
+    printf("\nCarta 1:\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Nome da Cidade: %s\n", nomeCidade1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
+
+    printf("\nCarta 2:\n");
+    printf("Estado: %c\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", nomeCidade2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
+
+    return 0;
+}
